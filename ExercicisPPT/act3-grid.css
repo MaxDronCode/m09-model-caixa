@@ -1,0 +1,45 @@
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); 
+  grid-template-rows: auto; 
+  gap: 10px;
+  grid-template-areas: 
+    "header header header header header header header"
+    "aside aside menu menu menu menu menu"
+    "aside aside section1 section1 section1 section2 section2"
+    "aside aside section1 section1 section1 section2 section2"
+    "aside aside article1 article2 article3 article4 article5"
+    "aside aside article6 article7 article8 article9 article10"
+    "footer footer footer footer footer footer footer";
+}
+
+header {
+  background-color: lightblue;
+  height: 50px;
+}
+aside {
+  background-color: lightgray;
+  height: 500px;
+}
+main {
+  background-color: lightgreen;
+}
+footer {
+  background-color: lightcoral;
+  height: 30px;
+}
+
+nav {
+  background-color: brown;
+  color: #ddd;
+}
+
+section {
+  background-color: rgb(227, 51, 51);
+} 
+
+article {
+  background-color: blue;
+  color: #ddd;
+}
