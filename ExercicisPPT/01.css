@@ -1,0 +1,7 @@
+button{
+  border: 10px dotted red;
+  margin: 50px;
+  padding: 60px 40px 20px 0;
+}
+
+/* EL color del marge o del padding no es poden canviar */
