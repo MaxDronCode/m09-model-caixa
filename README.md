@@ -1,0 +1,1 @@
+L'exercici de GRID posat a clase esta a /ExercicisPPT/act3.grid.html
